@@ -1,0 +1,16 @@
+{
+  "name": "stylelint-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint": "^6.5.1",
+    "stylelint-scss": "^1.1.1"
+  },
+  "scripts": {
+    "lint": "stylelint ./src/**/*.scss --syntax scss || exit 0"
+  },
+  "author": "",
+  "license": "ISC"
+}
